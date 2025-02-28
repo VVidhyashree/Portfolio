@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhyashree | Portfolio</title>
+    <link rel="stylesheet" href="style11.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vidhyashree</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container text-center">
+            <h1>Hi, I'm <span class="highlight">Vidhyashree</span></h1>
+            <p>AI/ML Engineer | Researcher | Data Scientist</p>
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="Vidhya_resume.pdf" download class="btn btn-outline-light">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="C:\Users\DELL\OneDrive\Desktop\passport size photo.jpeg" alt="Vidhyashree" class="profile-img">  <!-- Changed to a relative path -->
+                </div>
+                <div class="col-md-8">
+                    <p>Final-year AI & ML engineering student with hands-on experience in Machine Learning, Deep Learning, and NLP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        
+        <!-- First Row (Two Columns) -->
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                <p>Python, R, SQL, Java</p>
+            </div>
+            <div class="col-md-6">
+                <h4><i class="fas fa-brain"></i> AI & Machine Learning</h4>
+                <p>Scikit-Learn, TensorFlow, PyTorch, XGBoost</p>
+            </div>
+        </div>
+
+        <!-- Second Row (Two Columns) -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4><i class="fas fa-chart-bar"></i> Data Analysis</h4>
+                <p>Pandas, NumPy, Power BI, Matplotlib</p>
+            </div>
+            <div class="col-md-6">
+                <h4><i class="fas fa-server"></i> Deployment</h4>
+                <p>Flask, FastAPI, Streamlit, TensorFlow Serving</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Projects Section with Articles and Table -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="card project-card">
+                        <img src="https://community.powerbi.com/t5/image/serverpage/image-id/453212iCC0D1EA7E34105A0?v=v2" class="card-img-top" alt="AI Health System">
+                        <div class="card-body">
+                            <h5 class="card-title">Airline Ticket Price Analysis</h5>
+                            <p>Analyzed airline ticket pricing trends using Python & Power BI.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="card project-card">
+                        <img src="https://th.bing.com/th/id/R.46137ade5ae18a12572fa9ccaf1485ef?rik=tbznPdm0YVV%2fBA&riu=http%3a%2f%2frobotcombat.com%2fproducts%2fimages%2f0-OWIX0535_lg.jpg&ehk=7LBvyGRSLpEQbQb2Lz9Dr0A8bjovwcVFITE8BkRQo%2bU%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Robotic Arm">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotic Gripper Arm (Hand Gesture Control)</h5>
+                            <p>Developed a robotic arm controlled by human hand gestures.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Project Details Table -->
+            <div class="mt-4">
+                <h3 class="text-center">Project Details</h3>
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Technology Used</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AI-Driven Health System</td>
+                            <td>Python, Scikit-Learn, Streamlit</td>
+                            <td>Predicts injury recovery time based on diet and injury type.</td>
+                        </tr>
+                        <tr>
+                            <td>Multilingual AI Chatbot</td>
+                            <td>Flask, OpenAI API, MySQL</td>
+                            <td>Automated chatbot with GPT-powered multilingual support.</td>
+                        </tr>
+                        <tr>
+                            <td>Airline Ticket Price Analysis</td>
+                            <td>Power BI, Python, Pandas</td>
+                            <td>Analyzed airline pricing trends to optimize pricing strategies.</td>
+                        </tr>
+                        <tr>
+                            <td>Robotic Gripper Arm</td>
+                            <td>Python, Raspberry Pi</td>
+                            <td>Developed a robotic arm controlled by human hand gestures.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <p class="text-center">Let's connect!</p>
+            <div class="text-center">
+                <a href="mailto:vidhyashree.v2004@gmail.com" class="btn btn-dark">Email Me</a>
+                <a href="https://linkedin.com/in/vidhyashree-v-4887a4240" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/VVidhyashree" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 bg-dark text-white">
+        &copy; 2025 Vidhyashree. All Rights Reserved.
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
